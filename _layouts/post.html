@@ -31,6 +31,23 @@ layout: default
     <p><span class="share-box">Share:</span> <a href="http://twitter.com/share?text={{ page.title }}&url={{site.url}}{{page.url}}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}" target="_blank">Facebook</a></p>
   </div>
 
+  <p>Fork me on <a href="https://github.com/VincentTam/TestStaticmanLab/">GitHub</a>.</p>
+
+  <form method="POST" action="{{ site.staticman.api }}">
+    <input name="options[redirect]" type="hidden" value="{{ site.url }}">
+    <input name="options[slug]" type="hidden" value="test-slug">
+    <label>Name: <input name="fields[name]" type="text"></label><br>
+    <label>Email: <input name="fields[email]" type="email"></label><br>
+    <label>Message: <br><textarea name="fields[message]" rows="12" cols="36"></textarea></label><br>
+    <input type="submit" value="Submit">
+  </form>
+  {% include comments.html %}
+  
+  <footer>
+    <p><a href="https://validator.w3.org/nu/?doc={{ site.url | url_encode }}">Valid HTML5</a>
+    in public domain.</p>
+  </footer>
+
   <!--<div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>-->
