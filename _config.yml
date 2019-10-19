@@ -89,6 +89,12 @@ include: ['_pages']
 paginate: 6
 paginate_path: /page:num/
 
+# staticman
+
+staticman:
+  api: "https://staticman3.herokuapp.com/v3/entry/github/redicee/redicee.github.io/master/comments"
+  path: "_data/comments/test-slug"
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
