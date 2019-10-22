@@ -31,11 +31,13 @@ body {
   font-variant-ligatures: none !important;
   font-feature-settings: none;
   text-rendering: optimizeSpeed;
+  font-variant-ligatures: no-common-ligatures;
 }
 h1,h2,h3{
   font-variant-ligatures: none !important;
   font-feature-settings: none;
   text-rendering: optimizeSpeed;
+  font-variant-ligatures: no-common-ligatures;
 }
 
 .container {
