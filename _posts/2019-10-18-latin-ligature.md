@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Don't use latin for placeholder text
-categories: Miscellaneous
+title: Remove/Disable ligature usage for chrome on adroid
+categories: Blog Tech
 ---
-Android google chrome automatically assumes the page is latin and uses ligatures.
+The appearance of ligatures don't seem like it has to do with language of website as previously thought, but only shows up in the headings.
