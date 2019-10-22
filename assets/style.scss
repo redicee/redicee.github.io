@@ -28,7 +28,10 @@ body {
   font-weight: 400;
   font-size: 18px;
   height: 100%;
+}
+h1,h2,h3{
   font-variant-ligatures: none !important;
+  font-feature-settings: none;
 }
 
 .container {
