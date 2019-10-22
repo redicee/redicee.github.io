@@ -28,10 +28,14 @@ body {
   font-weight: 400;
   font-size: 18px;
   height: 100%;
+  font-variant-ligatures: none !important;
+  font-feature-settings: none;
+  text-rendering: optimizeSpeed;
 }
 h1,h2,h3{
   font-variant-ligatures: none !important;
   font-feature-settings: none;
+  text-rendering: optimizeSpeed;
 }
 
 .container {
