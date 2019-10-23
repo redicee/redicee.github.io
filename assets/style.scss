@@ -39,6 +39,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  text-align:center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -437,7 +438,7 @@ body:after {
   font-kerning: auto;
   font-feature-settings: none;
   line-height: 1.2;
-  letter-spacing: 1px;
+  
   text-rendering: optimizeSpeed;
   font-feature-settings: unset;
   font-variant: normal;
@@ -451,7 +452,7 @@ body:after {
   font-kerning: auto;
   font-feature-settings: none;
   line-height: 1.2;
-  letter-spacing: 1px;
+  
   text-rendering: optimizeSpeed;
   font-feature-settings: unset;
   font-variant: normal;
