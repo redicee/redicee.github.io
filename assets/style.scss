@@ -314,7 +314,8 @@ p > img {
 }
 
 nav {
-  float: none;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
@@ -436,6 +437,10 @@ body:after {
   font-kerning: auto;
   font-feature-settings: none;
   line-height: 1.2;
+  letter-spacing: 1px;
+  text-rendering: optimizeSpeed;
+  font-feature-settings: unset;
+  font-variant: normal;
   
 }
 
@@ -446,6 +451,10 @@ body:after {
   font-kerning: auto;
   font-feature-settings: none;
   line-height: 1.2;
+  letter-spacing: 1px;
+  text-rendering: optimizeSpeed;
+  font-feature-settings: unset;
+  font-variant: normal;
 }
 
 .author_title{
