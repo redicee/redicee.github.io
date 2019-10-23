@@ -17,4 +17,4 @@ Some might require adding spacing between letters via
 ```
 letter-spacing: 0.1px;
 ```
-Source: [Stackoverflow] (https://stackoverflow.com/questions/37702864/disabling-ligatures-and-text-figures-in-open-type-font)
+Source: [Stackoverflow](https://stackoverflow.com/questions/37702864/disabling-ligatures-and-text-figures-in-open-type-font)
